@@ -1,0 +1,40 @@
+terraform init
+
+terraform plan
+
+terraform apply
+ 
+terraform version
+
+terraform apply -lock=false
+ 
+cat .terraform.tfstate.lock.info
+
+terraform validate
+
+terraform fmt
+
+terraform state
+
+terraform state show aws_instance
+
+terraform state show aws_instance.firstserver
+
+terraform graph | dot -Tsvg >graph.svg
+
+terraform workspace list
+
+terraform refresh
+
+terraform force-unlock 56dfb58b-4e50-27dc-ae08-49aa17f5cb93
+
+terraform apply
+
+terraform output first_output
+
+terraform output aws_cidr_subnet1
+
+terraform apply
+
+terraform apply -var 'new_map={ subnet1="Somesh", subnet2="Prajapati" }'
+ 

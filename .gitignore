@@ -1,0 +1,9 @@
+#Compiled Files
+*.tfstate
+*.tfstate.backup
+
+#Module Directory
+.terraform
+
+.DS_Store
+.terraform/plugins/darwin_amd64/terraform-provider-aws_v1.34.0_x4
