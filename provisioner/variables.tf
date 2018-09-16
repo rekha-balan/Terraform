@@ -1,7 +1,7 @@
 # An AMI
 variable "ami" {
-  description = "AMI id for Ubuntu server creation"
-  default     = "ami-04681a1dbd79675a5"
+  description = "AMI id for CentOS-7 server creation"
+  default     = "ami-9887c6e7"
 }
 
 variable "home_ip" {

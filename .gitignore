@@ -7,3 +7,5 @@
 
 .DS_Store
 .terraform/plugins/darwin_amd64/terraform-provider-aws_v1.34.0_x4
+
+*.pem
