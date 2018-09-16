@@ -1,0 +1,23 @@
+---
+
+- hosts: all
+
+  vars: 
+    - MyMessage: "Welcome to Ansible with Terraform world!"
+
+  tasks:
+    - name: Install the EPEL-Repository
+      yum:
+        name: epel-release
+        state: installed
+
+    - name: Nginx Install
+      yum: 
+        name: nginx 
+        state: installed 
+
+    - name: Start Nginx
+      service:
+        name: nginx
+        state: started
+       
